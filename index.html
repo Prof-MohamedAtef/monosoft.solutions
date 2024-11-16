@@ -3,34 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Company Project Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>Our Projects Gallery</h1>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Introduce yourself here...</p>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
+    <div class="gallery-container">
+        <!-- Project 1 -->
         <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of your project...</p>
+            <h2>Project Alpha</h2>
+            <div class="media-list">
+                <!-- Images/Videos for Project 1 -->
+                <div class="media-item">
+                    <img src="image1.jpg" alt="Project Alpha Image 1">
+                </div>
+                <div class="media-item">
+                    <img src="image2.jpg" alt="Project Alpha Image 2">
+                </div>
+                <div class="media-item">
+                    <video controls>
+                        <source src="video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Add more images/videos as needed -->
+            </div>
         </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+        <!-- Project 2 -->
+        <div class="project">
+            <h2>Project Beta</h2>
+            <div class="media-list">
+                <!-- Images/Videos for Project 2 -->
+                <div class="media-item">
+                    <img src="image3.jpg" alt="Project Beta Image 1">
+                </div>
+                <div class="media-item">
+                    <video controls>
+                        <source src="video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media-item">
+                    <img src="image4.jpg" alt="Project Beta Image 2">
+                </div>
+                <!-- Add more images/videos as needed -->
+            </div>
+        </div>
+
+        <!-- Additional projects can be added here following the same structure -->
+    </div>
 </body>
 </html>
